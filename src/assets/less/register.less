@@ -1,0 +1,79 @@
+@import "base";
+
+.main {
+    width: 100%;
+    height: 90%;
+    .bg('../../img/bgPic.png');
+    .rel();
+    .contBox {
+        width: 336px;
+        height: 100%;
+        .bgc(#fff, .85);
+        .abs();
+        .r(16%);
+        .pd(0, 56px);
+        .top {
+            width: 100%;
+            margin: 40px 0;
+            .imgBox{
+                .wh(89px);
+                .bgc(#000);
+                .bc();
+            }
+            img {
+                .wh(100%);
+            }
+        }
+        .mid {
+            .lName {
+                margin: 10px 0 20px 0;
+                b {
+                    font-weight: normal;
+                    font-size: 15px;
+                    margin-right: 20px;
+                }
+                .cur {
+                    .c(#1692FB)
+                }
+            }
+            input {
+                width: 100%;
+                .h-lh(30px);
+                margin-bottom: 15px;
+                padding-left: 4px;
+                .bd();
+                .bd-radius(3px);
+                .bgc(#fff);
+            }
+            .checkBox {
+                width: 100%;
+                height: 108px;
+                margin-bottom: 20px;
+            }
+            .btn {
+                width: 100%;
+                .h-lh(31px);
+                .tc();
+                .bgc(#1692FB);
+                .bd-radius();
+                .c(#fff);
+                .fs(15px);
+                margin-bottom: 10px;
+            }
+            .forgetPwd {
+                .tr();
+                .fs(12px);
+                a {
+                    .c(#1692FB);
+                }
+            }
+        }
+        .btm {
+            .w100();
+            .tc();
+            .abs();
+            .b(60px);
+            .pr(112px);
+        }
+    }
+}

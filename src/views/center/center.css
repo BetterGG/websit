@@ -1,0 +1,99 @@
+
+a {
+	color: #BD1B21;
+}
+.main .banner img {
+	width: 100%;
+	height: auto;
+}
+.main .con {
+	margin: 15px auto;
+	padding-bottom: 40px;
+	width: 960px;
+}
+@media screen and (max-width: 1440px) {
+	.main .con {
+		width: 960px;
+	}
+}
+@media screen and (min-width: 1440px) {
+	.main .con {
+		width: 1200px;
+	}
+}
+.main .con .effectBox {
+	position: relative;
+	font-size: 12px;
+}
+.main .con .effectBox>div {
+	display: inline-block;
+}
+
+.main .con .effectBox .ebLeft {
+	padding-top: 6px;
+	width: 104px;
+	height: 60px;
+	background-color: #BD1B21;
+	opacity: .75;
+	color: #FFF;
+	position: relative;
+	top: -46px;
+	text-align: center;
+}
+.main .con .effectBox .ebLeft p {
+	font-size: 16px;
+}
+.main .con .effectBox .ebRight {
+	position: absolute;
+	right: 0;
+}
+
+@media screen and (max-width: 1440px) {
+	.main .con .contBox {
+		width: 960px;
+	}
+}
+@media screen and (min-width: 1440px) {
+	.main .con .contBox {
+		width: 1200px;
+	}
+}
+.main .con .contBox {
+	width: 960px;
+}
+.main .con .contBox {
+	padding-left: 12%;
+}
+
+.main .con .contBox .item {
+	display: inline-block;
+	width: 160px;
+	height: 120px;
+	text-align: center;
+	border: 1px solid #eee;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+.main .con .contBox .item .iconfont {
+	font-size: 40px;
+}
+
+.main .con .contBox .item a {
+	color: #333;
+}
+
+.main .con .contBox .item p {
+	font-size: 15px;
+	margin-top: 15px;
+}
+
+.main .con .contBox .item:nth-child(1) a:hover,
+.main .con .contBox .item:nth-child(2) a:hover,
+.main .con .contBox .item:nth-child(3) a:hover {
+	color: #BD1B21;	
+  -webkit-transition: .3s;
+    -moz-transition: .3s;
+       -o-transition: .3s;
+       -ms-transition: .3s;
+          transition: .3s;
+}

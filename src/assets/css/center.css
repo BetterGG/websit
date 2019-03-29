@@ -1,0 +1,52 @@
+
+a {
+	color: #BD1B21;
+}
+.main .banner img {
+	width: 100%;
+	height: auto;
+}
+.main .con {
+	margin: 15px auto;
+	padding-bottom: 40px;
+	width: 960px;
+}
+@media screen and (max-width: 1440px) {
+	.main .con {
+		width: 960px;
+	}
+}
+@media screen and (min-width: 1440px) {
+	.main .con {
+		width: 1200px;
+	}
+}
+.main .con .effectBox {
+	position: relative;
+}
+.main .con .effectBox>div {
+	display: inline-block;
+}
+
+.main .con .effectBox .ebLeft {
+	padding-top: 6px;
+	width: 104px;
+	height: 60px;
+	background-color: #BD1B21;
+	opacity: .75;
+	color: #FFF;
+	position: relative;
+	top: -46px;
+	text-align: center;
+}
+.main .con .effectBox .ebLeft p {
+	font-size: 16px;
+}
+.main .con .effectBox .ebRight {
+	position: absolute;
+	right: 0;
+}
+
+.main .con .contBox {
+	padding-left: 9%;
+}

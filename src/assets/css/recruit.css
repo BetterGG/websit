@@ -1,0 +1,110 @@
+
+a {
+	color: #BD1B21;
+}
+.main .banner img {
+	width: 100%;
+	height: auto;
+}
+.main .con {
+	margin: 15px auto;
+	padding-bottom: 40px;
+	width: 960px;
+}
+@media screen and (max-width: 1440px) {
+	.main .con {
+		width: 960px;
+	}
+}
+@media screen and (min-width: 1440px) {
+	.main .con {
+		width: 1200px;
+	}
+}
+.main .con .effectBox {
+	position: relative;
+}
+.main .con .effectBox>div{
+	display: inline-block;
+}
+
+.main .con .effectBox .ebLeft {
+	padding-top: 6px;
+	width: 104px;
+	height: 60px;
+	background-color: #BD1B21;
+	opacity: .75;
+	color: #FFF;
+	position: relative;
+	top: -46px;
+	text-align: center;
+}
+.main .con .effectBox .ebLeft p {
+	font-size: 16px;
+}
+.main .con .effectBox .ebRight {
+	position: absolute;
+	right: 0;
+}
+
+/************** 下半部分 ******************/
+
+.main .con .contBox .upBox {
+	position: relative;
+	height: 40px
+}
+.main .con .contBox .searchBox {
+	position: absolute;
+	right: 0;
+}
+
+.main .con .contBox .searchBox input{
+	display: inline-block;
+	border: 1px solid #eee;
+	padding-left: 5px;
+	width: 180px;
+	height: 30px;
+	line-height: 30px;
+	position: relative;
+	top: -1px;
+	right: -5px;
+}
+
+.main .con .contBox .searchBox .searchBtn {
+	display: inline-block;
+	background-color: #BD1B21;
+	color: #FFF;
+	border: 1px solid #BD1B21;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 16px;
+}
+
+.main .con .contBox .mainForm {
+	height: 400px;
+	overflow-y: hidden;
+}
+
+.main .con .contBox .mainForm table {
+	/*width: calc(100% - 1px);*/
+	width: 99.99%;
+	border-collapse: collapse;
+}
+.main .con .contBox .mainForm thead {
+	background-color: #BD1B21;
+	color: #FFF;
+
+}
+.main .con .contBox .mainForm th {
+	font-size: 15px;
+}
+.main .con .contBox .mainForm tr {
+	height: 32px;
+	line-height: 32px;
+
+}
+.main .con .contBox .mainForm td {
+	text-align: center;
+	border: 1px solid #EEE;
+	font-size: 12px;
+}

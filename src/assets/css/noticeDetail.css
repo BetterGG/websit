@@ -1,0 +1,97 @@
+
+a {
+	color: #BD1B21;
+}
+.main .banner img {
+	width: 100%;
+	height: auto;
+}
+.main .con {
+	margin: 15px auto;
+	padding-bottom: 40px;
+	width: 960px;
+}
+@media screen and (max-width: 1440px) {
+	.main .con {
+		width: 960px;
+	}
+}
+@media screen and (min-width: 1440px) {
+	.main .con {
+		width: 1200px;
+	}
+}
+.main .con .effectBox {
+	position: relative;
+}
+.main .con .effectBox>div {
+	display: inline-block;
+}
+
+.main .con .effectBox .ebLeft {
+	padding-top: 6px;
+	width: 104px;
+	height: 60px;
+	background-color: #BD1B21;
+	opacity: .75;
+	color: #FFF;
+	position: relative;
+	top: -46px;
+	text-align: center;
+}
+.main .con .effectBox .ebLeft p {
+	font-size: 16px;
+}
+.main .con .effectBox .ebRight {
+	position: absolute;
+	right: 0;
+}
+
+.main .con .contBox {
+	padding-left: 9%;
+}
+.main .con .contBox .contTitle {
+	font-size: 16px;
+	font-weight: 600;
+	text-align: center;
+	height: 60px;
+	line-height: 60px;
+}
+.main .con .contBox .contBaseInfo {
+	border-bottom: 1px solid #E3E3E3;
+}
+
+.main .con .contBox .contBaseInfo>div {
+	width: 33%;
+	display: inline-block;
+	text-align: center;
+	padding-bottom: 14px;
+	font-size: 12px;
+}
+
+.main .con .contBox .contBaseInfo .from {
+	/*padding-left: 50px;*/
+	text-align: right;
+}
+
+.main .con .contBox .contBaseInfo .count  {
+	text-align: left;
+}
+.main .con .contBox .article {
+	padding: 30px 0;
+	font-size: 12px;
+}
+
+.main .con .contBox .btns {
+	margin: 0 auto;
+	width: 146px;
+}
+
+.main .con .contBox .btns>div{
+	display: inline-block;
+	padding: 4px 6px;
+	color: #BD1B21;
+	border: 1px solid #BD1B21;
+	margin: 20px 10px;
+	cursor: pointer;
+}
