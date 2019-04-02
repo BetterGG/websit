@@ -3,38 +3,29 @@ import './assets/css/common.css';
 import './assets/css/header.css';
 import './assets/css/footer.css';
 
-
 import './assets/js/jquery.min.js'
-// import './assets/js/header'
-// import './assets/js/footer'
-import 'components/header/header'
-// import footer from 'components/footer/footer'
 
+//header 引入
+import Header from './components/header/index.js';
+// import Footer from './components/footer/index.js';
 
-/**
- * 回到顶部功能 
- */
 (()=>{
-    document.addEventListener("load", function() {
-        //header ,  footer
-        generateHtml()
+    window.addEventListener("load", function() {
+        //header footer
+        generateHtml('header', Header);
+        // generateHtml('footer', Footer);
 
         //回到顶部
-        //   ...
+        //  ...
     })
 })();
 
 
-/**
- * 生成header , footer
- */
-function generateHtml() {
-    //ajax 数据获取
-    //    ....
-
-    let header = '';
-    let footer = "";
-
-    document.getElementById("header").innerHTML = header;
-    document.getElementById("footer").innerHTML = footer;
+ /**
+  *  生成代码片段并插入对应节点
+  * @param {String} nodeList  节点ID
+  * @param {String} html    要插入的代码片段
+  */
+function generateHtml(nodeList, html) {
+    document.getElementById(nodeList).innerHTML = html;
 }

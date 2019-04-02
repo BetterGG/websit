@@ -1,5 +1,7 @@
 /* @import '../../assets/css/index.css'; */
 
+
+
 /************* 主体 ********************/
 a {
 	color: #BD1B21;
@@ -113,7 +115,7 @@ a {
 }
 .main .con .others .notice .contBox .item {
 	position: relative;
-	font-size: 12px;
+	font-size: 13px;
 }
 .main .con .others .notice .contBox .item>div{
 	display: inline-block;
@@ -140,4 +142,8 @@ a {
 .main .con .others .question {
 	position: absolute;
 	right: 0;
+}
+
+.main .con .others .question .contBox {
+	font-size: 13px;
 }
